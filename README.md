@@ -2,9 +2,9 @@
 
 A comprehensive Java SE application for managing airport operations including flight scheduling, passenger check-in, baggage handling, gate management, real-time flight status monitoring, and **enhanced Aviation Stack API integration** for live flight data with professional reporting and analytics.
 
-## 🚀 Features
+## Features
 
-### ✅ Core Airport Management
+### Core Airport Management
 - **Flight Scheduling**: Create, edit, and manage flight schedules with enhanced validation
 - **Passenger Check-In**: Streamlined passenger check-in process with boarding pass generation
 - **Baggage Handling**: Track baggage from check-in to delivery with real-time simulation
@@ -12,7 +12,7 @@ A comprehensive Java SE application for managing airport operations including fl
 - **Real-Time Flight Status**: Live flight status updates with weather integration
 - **Enhanced Reporting & Logging**: Professional reporting system with advanced analytics
 
-### ✅ **Enhanced Aviation Stack API Integration** 🛫
+### **Enhanced Aviation Stack API Integration** 🛫
 - **Real-time Flight Tracking**: Live position, altitude, speed, and direction data with continuous updates
 - **Dynamic Airport Information**: Complete airport details with location-specific data for major airports
 - **Comprehensive Airline Information**: Airline profiles with fleet data and company details
@@ -37,7 +37,7 @@ A comprehensive Java SE application for managing airport operations including fl
 - **Professional Export**: Enhanced CSV export with status feedback
 - **Resource Management**: Proper cleanup and memory management
 
-### ✅ Technical Features
+### Technical Features
 - **Multi-threaded Operations**: Background processing for real-time updates
 - **Database Integration**: MySQL database with JDBC connectivity
 - **Modern UI**: FlatLaf themed Swing interface with professional styling
@@ -48,7 +48,7 @@ A comprehensive Java SE application for managing airport operations including fl
 - **Enhanced Error Handling**: Graceful fallbacks and user-friendly error messages
 - **Splash Screen**: Professional loading screen with gradient background
 
-## 🛠 Technology Stack
+## Technology Stack
 
 - **Language**: Java SE 21
 - **UI Framework**: Java Swing with FlatLaf theming
@@ -62,7 +62,7 @@ A comprehensive Java SE application for managing airport operations including fl
 - **Printing**: Java Print API for report generation
 - **Background Processing**: ScheduledExecutorService for auto-refresh operations
 
-## 📋 Prerequisites
+## Prerequisites
 
 - Java Development Kit (JDK) 21 or higher
 - MySQL Server 8.0 or higher
@@ -70,7 +70,7 @@ A comprehensive Java SE application for managing airport operations including fl
 - Internet connection for Aviation Stack API features
 - Aviation Stack API key (included in config)
 
-## 🚀 Quick Start
+## Quick Start
 
 ### 1. Database Setup
 
@@ -132,7 +132,7 @@ javac -cp "lib/*;src" src/aerodesk/Main.java
 java -cp "lib/*;src" aerodesk.Main
 ```
 
-## 👤 Default Login Credentials
+## Default Login Credentials
 
 - **Admin User**: 
   - Username: `admin`
@@ -144,7 +144,7 @@ java -cp "lib/*;src" aerodesk.Main
   - Password: `staff123`
   - Role: `STAFF`
 
-## 🏗 Project Structure
+## Project Structure
 
 ```
 AeroDesk-Pro/
@@ -228,7 +228,7 @@ AeroDesk-Pro/
 - **Mock Data**: ✅ Comprehensive fallback system provides full functionality
 - **Real-time Updates**: ✅ Background monitoring with 10-second intervals
 
-## 📊 Enhanced Reports & Logs System
+## Enhanced Reports & Logs System
 
 ### Professional Features
 - **Clean UI Design**: Icon-free interface with modern typography and professional appearance
@@ -248,7 +248,7 @@ AeroDesk-Pro/
 - **Real-time Results**: Dedicated Search tab with formatted results
 - **Comprehensive Coverage**: Search across all system data and logs
 
-## 🔧 Development Guidelines
+## Development Guidelines
 
 ### Code Style
 - Follow Java naming conventions
@@ -263,27 +263,27 @@ AeroDesk-Pro/
 - Use transactions for complex operations
 
 ### Recent Fixes & Improvements
-- ✅ **Compilation Issues Resolved**: Fixed NoSuchMethodError in ThemeManager
-- ✅ **Class File Cleanup**: Proper recompilation of all components
-- ✅ **Splash Screen Integration**: Professional loading screen with gradient background
-- ✅ **Login Flow**: Seamless transition from splash to login screen
-- ✅ **API Error Handling**: Robust fallback system for API failures
-- ✅ **UI Consistency**: Removed all icons for professional appearance
-- ✅ **Button Sizing**: Wider buttons (150px) for improved usability
+- **Compilation Issues Resolved**: Fixed NoSuchMethodError in ThemeManager
+- **Class File Cleanup**: Proper recompilation of all components
+- **Splash Screen Integration**: Professional loading screen with gradient background
+- **Login Flow**: Seamless transition from splash to login screen
+- **API Error Handling**: Robust fallback system for API failures
+- **UI Consistency**: Removed all icons for professional appearance
+- **Button Sizing**: Wider buttons (150px) for improved usability
 
 ## 🐛 Known Issues & Solutions
 
 ### API Rate Limiting
 - **Issue**: Aviation Stack API returns HTTP 401 errors due to rate limiting
 - **Solution**: Application gracefully falls back to comprehensive mock data
-- **Status**: ✅ Working as designed - full functionality maintained
+- **Status**: Working as designed - full functionality maintained
 
 ### Compilation Issues
 - **Issue**: NoSuchMethodError for ThemeManager.stylePasswordField()
 - **Solution**: Clean compilation with proper class file management
-- **Status**: ✅ Resolved - application compiles and runs successfully
+- **Status**: Resolved - application compiles and runs successfully
 
-## 📈 Performance Metrics
+## Performance Metrics
 
 - **Application Startup**: <3 seconds with splash screen
 - **Login Process**: <2 seconds authentication
@@ -292,9 +292,9 @@ AeroDesk-Pro/
 - **Memory Usage**: Optimized for desktop deployment
 - **UI Responsiveness**: <100ms for user interactions
 
-## 🔄 Recent Updates (July 19, 2024)
+## Recent Updates (July 19, 2024)
 
-### ✅ Completed
+### Completed
 - Fixed compilation errors and NoSuchMethodError
 - Enhanced splash screen with professional gradient background
 - Improved login screen flow and user experience
@@ -303,12 +303,12 @@ AeroDesk-Pro/
 - Enhanced button sizing and UI consistency
 - Comprehensive documentation updates
 
-### 🔄 In Progress
+### In Progress
 - API rate limiting optimization
 - Enhanced error handling for external services
 - Performance monitoring and optimization
 
-### 📅 Planned
+### Planned
 - Additional API integrations
 - Advanced analytics dashboard
 - Mobile companion application
