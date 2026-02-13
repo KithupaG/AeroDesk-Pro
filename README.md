@@ -12,7 +12,7 @@ A comprehensive Java SE application for managing airport operations including fl
 - **Real-Time Flight Status**: Live flight status updates with weather integration
 - **Enhanced Reporting & Logging**: Professional reporting system with advanced analytics
 
-### **Enhanced Aviation Stack API Integration** 🛫
+### **Enhanced Aviation Stack API Integration**
 - **Real-time Flight Tracking**: Live position, altitude, speed, and direction data with continuous updates
 - **Dynamic Airport Information**: Complete airport details with location-specific data for major airports
 - **Comprehensive Airline Information**: Airline profiles with fleet data and company details
@@ -25,7 +25,7 @@ A comprehensive Java SE application for managing airport operations including fl
 - **Export & Clear Functionality**: Export API data and clear results for better management
 - **Robust Error Handling**: Graceful fallback to mock data when API is unavailable
 
-### ✅ **Enhanced Reports & Logs System** 📊
+### **Enhanced Reports & Logs System** 📊
 - **Professional UI Design**: Clean, icon-free interface with modern typography
 - **Wider Action Buttons**: 150px width buttons for improved usability
 - **Advanced Search Functionality**: Multi-type search with date range filtering
